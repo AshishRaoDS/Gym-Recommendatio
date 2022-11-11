@@ -1,0 +1,55 @@
+body {
+  background-color: #150742;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  padding: 50px;
+  padding-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+.questionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.questionDiv:last-of-type {
+  margin-bottom: -20px;
+}
+
+#wheel {
+  width: 550px;
+  margin: 0 auto;
+  height: 550px;
+}
+
+.gymSuccess {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 6px dotted #8bc34a;
+  padding: 15px;
+  padding-left: 55px;
+}
+
+.dot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  left: -20px;
+  top: 0px;
+}
